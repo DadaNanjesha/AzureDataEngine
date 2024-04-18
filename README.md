@@ -1,4 +1,5 @@
  # Introduction
+`#ffffff`
  ```
 In this project, The focus is on batch-processing data architecture which will be built on the Azure platform. 
 
@@ -13,17 +14,17 @@ The design will prioritize batch scheduling of data processing tasks to coincide
 
 ## Tools used for this entire project:
 ```
-• Azure DevOps
-• Azure Repos
-• Azure Pipelines
-• Azure Portal
-• Azure Database for PostgreSQL flexible server
-• Azure Databricks Service
-• Resource Group
-• Network Watcher
-• Azure Blob Storage account
-• Network security group
-• Azure Key Vault
+- [ ] Azure DevOps
+- [ ] Azure Repos
+- [ ] Azure Pipelines
+- [ ] Azure Portal
+- [ ] Azure Database for PostgreSQL flexible server
+- [ ] Azure Databricks Service
+- [ ] Resource Group
+- [ ] Network Watcher
+- [ ] Azure Blob Storage account
+- [ ] Network security group
+- [ ] Azure Key Vault
 ```
 ## Steps to setup:
 ```
