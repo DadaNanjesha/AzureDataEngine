@@ -6,6 +6,7 @@ The goal of this project is to use Azure services to design and build a reliable
 ![Project Architecture](https://github.com/DadaNanjesha/batch-processing/blob/main/Project%20structure.png)
 
 ## Tools used for this entire project:
+```
 • Azure DevOps
 • Azure Repos
 • Azure Pipelines
@@ -17,3 +18,14 @@ The goal of this project is to use Azure services to design and build a reliable
 • Azure Blob Storage account
 • Network security group
 • Azure Key Vault
+```
+## Steps to setup:
+```
+1. Create Azure subscription
+2. Create Azure DevOps account
+3. Create the resource group and access provided and follow the Azure documentation
+4. Create the required resoucres for the project
+5. Create the pipeline in Azure Devops for CI
+6. Deploy the CSV data into PostgreSQL
+7. Create a DataBricks pipeline to load and transform the given data in Batch.
+```
