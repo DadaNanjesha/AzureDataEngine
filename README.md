@@ -1,5 +1,5 @@
  # Introduction
-`#ffffff`
+
 
 In this project, The focus is on batch-processing data architecture which will be built on the Azure platform. 
 
@@ -26,12 +26,12 @@ The design will prioritize batch scheduling of data processing tasks to coincide
 - [ ] Azure Key Vault
 
 ## Steps to setup:
-```
-1. Create Azure subscription
-2. Create Azure DevOps account
-3. Create the resource group and access provided and follow the Azure documentation
-4. Create the required resoucres for the project
-5. Create the pipeline in Azure Devops for CI
-6. Deploy the CSV data into PostgreSQL
-7. Create a DataBricks pipeline to load and transform the given data in Batch.
-```
+
+- [ ] Create Azure subscription
+- [ ] Create Azure DevOps account
+- [ ] Create the resource group and access provided and follow the Azure documentation
+- [ ] Create the required resoucres for the project
+- [ ] Create the pipeline in Azure Devops for CI
+- [ ] Deploy the CSV data into PostgreSQL
+- [ ] Create a DataBricks pipeline to load and transform the given data in Batch.
+
