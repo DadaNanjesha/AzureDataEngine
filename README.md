@@ -9,7 +9,9 @@ The primary goal of this project is to construct the required data infrastructur
 At the conceptual stage, we will focus on integrating canonical software components and frameworks and adapting common data engineering principles to create a state-of-the-art architecture for data processing.
 The design will prioritize batch scheduling of data processing tasks to coincide with the frontend application's quarterly execution cycle, which oversees producing new iterations of the machine learning model.
 
+
 ![Project Architecture](https://github.com/DadaNanjesha/batch-processing/blob/main/Project%20structure.png)
+
 
 ## Tools used for this entire project:
 
