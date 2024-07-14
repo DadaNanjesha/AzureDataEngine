@@ -5,19 +5,12 @@ container = "iubhblobcontainer"
 
 spark.conf.set(f"fs.azure.account.key.{storage_account_name}.blob.core.windows.net", storage_account_key)
 
-# COMMAND ----------
-
 dbutils.fs.ls(f"wasbs://iubhblobcontainer@iubhblobdb.blob.core.windows.net/")
-
-# COMMAND ----------
 
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col ,monotonically_increasing_id
 from pyspark.sql.types import StructType, StructField, StringType, IntegerType, DateType
 
-
-
-# COMMAND ----------
 
 schema = StructType([
     StructField("Date", DateType(), True),
@@ -34,11 +27,11 @@ df = spark.read \
 
 df.show()
 
-# COMMAND ----------
+
 
 df.printSchema()
 
-# COMMAND ----------
+
 
 df.summary()
 
@@ -51,16 +44,13 @@ else:
 
 
 
-# COMMAND ----------
-
 df.filter("value is null").count()
 
 
-# COMMAND ----------
 
 df.distinct()
 
-# COMMAND ----------
+
 
 import psycopg2
 from psycopg2.extras import execute_values
@@ -74,10 +64,10 @@ conn = psycopg2.connect(
     password="https://iu-key.vault.azure.net/secrets/password/46ea4f3fd80e4e92a4d1b83f4ceae15b3"
 )
 
-# Create a cursor object to execute SQL queries
+
 cursor = conn.cursor()
 
-# Create the table with columns and indexes
+
 create_table_query = """
     CREATE TABLE IF NOT EXISTS iudeschema.bankdata (
         Id SERIAL PRIMARY KEY,
@@ -101,7 +91,7 @@ conn.commit()
 conn.close()
 
 
-# COMMAND ----------
+
 
 # Read CSV data from Azure Blob storage
 df = spark.read.format("csv").option("header", "true").load("wasbs://iubhblobcontainer@iubhblobdb.blob.core.windows.net/bankdataset.csv")
