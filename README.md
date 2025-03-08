@@ -60,6 +60,31 @@ The system leverages canonical software components and data engineering best pra
 - **Modular Design:** Easy-to-maintain code structure with dedicated ETL and loading scripts.
 
 ---
+## 🛠️ Technologies Used
+
+- **Azure DevOps**  
+
+- **Azure Repos**  
+
+- **Azure Pipelines**  
+
+- **Azure Portal**  
+
+- **Azure Database for PostgreSQL**  
+
+- **Azure Databricks**  
+
+- **Azure Blob Storage**  
+
+- **Azure Key Vault**  
+
+- **Network Watcher & Network Security**  
+
+- **Resource Group**  
+
+- **Python**  
+
+---
 
 ## 🔄 Flow Diagram
 
